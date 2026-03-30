@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f5f7;
+}
+
+.board {
+  display: flex;
+  margin: 0 auto;
+  gap: 20px;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 250px;
+  min-height: 300px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  text-align: center;
+}
+
+.new-task {
+  margin: 0 auto;
+
+}
+
+input {
+  height: 3vh;
+  width: 100%; 
+}
+
+button {
+  box-sizing: border-box;
+  margin: 10px 0;
+}
